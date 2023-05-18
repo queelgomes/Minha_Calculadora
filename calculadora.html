@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Minha Calculadora</h1>
+        <p>Desde o início do curso esperei por esse momento.<br> 
+            E fazer essa calculadora do zero é uma grande conquista pessoal!</p>
+    </header>
+    <div id="calculadora">
+        
+        <input type="button" value="1" class="number" onclick="adicionar1()">
+        <input type="button" value="2" class="number" onclick="adicionar2()">
+        <input type="button" value="3" class="number" onclick="adicionar3()">
+        <input type="button" value="4" class="number" onclick="adicionar4()">
+        <input type="button" value="5" class="number" onclick="adicionar5()">
+        <input type="button" value="6" class="number" onclick="adicionar6()">
+        <input type="button" value="7" class="number" onclick="adicionar7()">
+        <input type="button" value="8" class="number" onclick="adicionar8()">
+        <input type="button" value="9" class="number" onclick="adicionar9()">
+        <input type="button" value="0" class="number" onclick="adicionar0()">
+    </div>
+    <br>
+    <div id="botoes">
+        <input type="button" value="+"  class="botoes" onclick="somar()">
+        <input type="button" value="-" class="botoes" onclick="subtrair()">
+        <input type="button" value="/" class="botoes" onclick="dividir()">
+        <input type="button" value="x" class="botoes" onclick="multiplicar()">
+        <input type="button" value="=" class="botoes" onclick="resultado()">
+    </div>
+    <br>
+    <div id="cxcalc"> </div>
+    <input type="button" value="LIMPAR" onclick="limpar()">
+    
+    <footer>
+        &copy; Queel Gomes - mai.2023
+    </footer>
+</body>
+</html>
